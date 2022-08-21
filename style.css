@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    background: #FFFFFF;
+
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+/*...... Top-Section........ */
+.top-section {
+    display: flex;
+    background: #161616;
+    width: 870px;
+    border-radius: 12px;
+
+
+
+}
+
+
+
+
+
+button {
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #DD0000;
+    border-radius: 5px;
+}
