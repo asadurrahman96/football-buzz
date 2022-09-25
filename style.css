@@ -8,34 +8,241 @@ body {
 
 }
 
-main {
-    display: flex;
-    justify-content: center;
+img {
+    max-width: 100%;
 }
+
+.main-section {}
 
 /*...... Top-Section........ */
 .top-section {
+    background-color: #161616;
     display: flex;
-    background: #161616;
-    width: 870px;
+    margin-right: 5%;
+    border-radius: 20px;
+    /* width: 870px; */
+    /* flex-wrap: wrap; */
+    align-items: center;
+    /* width: 850px;
+    margin-left: 90px;
     border-radius: 12px;
+    padding: 25px;
+    height: 550px;
+    margin-top: 20px; */
+}
 
-
-
+.top-headline {
+    margin-left: 10%;
+    width: 50%;
+    align-items: center;
 }
 
 
 
-
-
-button {
+.watch-live {
     font-family: 'HelveticaNeue';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font: 20px;
     line-height: 23px;
     text-align: center;
     color: #FFFFFF;
     background: #DD0000;
     border-radius: 5px;
 }
+
+.cristiano-Ronaldo {
+    /* width: 50%; */
+    margin-right: 20px;
+    /* margin-right: 20px; */
+    margin-top: 100px;
+
+
+
+
+}
+
+/* Middle-Section........ */
+
+.middle-section {
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+
+    border: 5px;
+
+
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+
+    background-color: black;
+    position: absolute;
+    width: 140px;
+    height: 175px;
+    margin-top: 110px;
+    border-radius: 10px;
+}
+
+/* button {
+    width: 80%;
+    height: 40%;
+} */
+
+/* .button-class {
+    display: flex;
+
+
+} */
+
+.Upcoming {
+    background-color: white;
+    margin: 7px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.all {
+    background-color: white;
+    margin: 6px;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.Blog {
+    margin: 6px;
+    padding: 6px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.Player-info .Neymar-picture img {
+    width: 160px;
+    height: 110px;
+}
+
+.Player-info {
+    width: 80%;
+    display: grid;
+    justify-items: normal;
+    /* flex-wrap: wrap; */
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.player-info {
+    width: 200px;
+    height: 210px;
+    margin-left: 50px;
+    margin-right: 25px;
+    margin-top: 110px;
+    padding-left: 50%;
+    border-radius: 40px;
+
+}
+
+.Paragraph {
+    width: 260px;
+    height: 65px;
+    color: #161616;
+
+}
+
+
+
+.Top-class {
+    width: 450px;
+}
+
+
+
+.top-headline {
+    width: 250px;
+
+}
+
+.info {
+    /* width: 20%;
+    height: 40%; */
+
+}
+
+.fa-solid {
+    color: black;
+    width: 80px;
+}
+
+
+
+.goal-hobe {
+    color: white;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    margin-top: 110px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+}
+
+
+
+
+/*....... Media Queries....... */
+
+/* ------Mobile Device-------- */
+@media only screen and (max-width:688px) {
+    .top-section {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .middle-section {
+        width: 80%;
+        flex-direction: column;
+
+    }
+
+    .Player-info {
+        width: 100%;
+
+        grid-template-columns: repeat(1, 2fr);
+    }
+
+    .buttons {
+        flex direction: column;
+    }
+
+    .goal-hobe {
+        width: 100%;
+
+
+
+    }
+
+
+    .contact-info {
+        width: 100%;
+        flex-direction: column;
+    }
+
+
+
+
+}
+
+/* /* @media only screen and (min-width:689px) {
+    .Middle-Section {
+        /* width: 100%; */
+/* { */
